@@ -2,7 +2,7 @@
 #include <stdio.h>
 #define N 8 //dimensiunea tablei de sah 
 
-int sol[N][N];
+int sol[N][N];//matrice pentru tabla
 
 int valid(int x, int y, int sol[N][N]) {     //verificam daca pozitia respectiva se afla pe tabla si daca este nevizitata
     if(x >= 0 && x < N&& y >= 0 && y < N&& sol[x][y] == -1)
